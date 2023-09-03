@@ -1,1 +1,2 @@
-# shell-scripting
+	Auhor: Tosinkuzzy
+# Shell-Scriptingg
