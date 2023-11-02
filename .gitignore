@@ -1,0 +1,8 @@
+/bin/
+/include/
+/lib/
+pyvenv.cfg
+*.env
+venv
+/crownstar_acad-high_level_programming/
+__pycache__
