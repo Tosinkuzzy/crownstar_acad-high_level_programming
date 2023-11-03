@@ -1,5 +1,5 @@
 
-print("Welcome To Crownstar High Level Programming")
+Print("Welcome To Crownstar High Level Programming")
 Welcome To Crownstar High Level Programming
 >>> print("List Of Daily TODO List....:")
 List Of Daily TODO List....:
@@ -14,6 +14,8 @@ List Of Daily TODO List....:
 >>> print("5. DAILY MOTIVATION FOR PROJECT_1")
 5. DAILY MOTIVATION FOR PROJECT_1
 >>> print(input("SELECTION: ")
+6. PRACTICE MORE PROJECTS AND GET HANDS ON DECK
+>>> print("6. PRACTICE MORE PROJECTS AND GET HANDS ON DECK FOR PROJECT_1")
 ... 2
   File "<stdin>", line 2
     2
