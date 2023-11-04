@@ -4,13 +4,14 @@
 print("Welcome To Crownstar High Level Programming")
 
 # List of projects
-print("TODO List....")
+print("TODO LIST....")
 # Pick any of the project you are interested in!
-print("1. CODING ")
-print("2. CONTRIBUTING ")
-print("3. DEBUGGING ")
-print("4. DEPLOYMENT ")
-print("5. MAINTENANCE ")
+# list of all items
+print(" CODING ")
+print(" CONTRIBUTOR ")
+print(" DEBUGGING ")
+print(" DEPLOYMENT ")
+print(" MAINTENANCE ")
 
 # We have 5 project here now that need to be fixed.
 # 1. is that we need to implement some codes
@@ -20,4 +21,20 @@ print("5. MAINTENANCE ")
 # then we will implement this so when they pick one or two we can get the
 # user information like, name, email, and social account where we can
 # follow each other up.
-# put in more ideas before implementations
+# put in more ideas before implementations.
+
+def selection_list():
+	while True:
+		selection = ['CODING', 'CONTRIBUTOR', 'DEBUGGING', 'DEPLOYMENT', 'MAINTENANCE']
+		choice = input("Pick Your Choice: ")
+	#for  in selection:
+	#selection = ['CODING', 'CONTRIBUTOR', 'DEBUGGING', 'DEPLOYMENT', 'MAINTENANCE']
+		if choice in selection:
+			print("Thank You For Joining Crownstar!")
+			break
+		else:
+			print("TRY SOMETHING ELSE!!!!!!")
+
+selection_list()
+
+			
