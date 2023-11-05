@@ -4,12 +4,12 @@
 print("Welcome To Crownstar High Level Programming")
 
 # List of projects
-print("TODO LIST....")
+print("#### TODO LIST ####")
 # Pick any of the project you are interested in!
 # list of all items
 print(" CODING ")
 print(" CONTRIBUTOR ")
-print(" DEBUGGING ")
+print(" DATA ANALYST ")
 print(" DEPLOYMENT ")
 print(" MAINTENANCE ")
 
@@ -24,17 +24,15 @@ print(" MAINTENANCE ")
 # put in more ideas before implementations.
 
 def selection_list():
+	selection = ['CODING', 'CONTRIBUTOR', 'DATA ANALYST', 'DEPLOYMENT', 'MAINTENANCE']
+	type(selection)
+	choice = input("Pick Your Choice: ")
+	c = choice
 	while True:
-		selection = ['CODING', 'CONTRIBUTOR', 'DEBUGGING', 'DEPLOYMENT', 'MAINTENANCE']
-		choice = input("Pick Your Choice: ")
-	#for  in selection:
-	#selection = ['CODING', 'CONTRIBUTOR', 'DEBUGGING', 'DEPLOYMENT', 'MAINTENANCE']
-		if choice in selection:
-			print("Thank You For Joining Crownstar!")
-			break
-		else:
-			print("TRY SOMETHING ELSE!!!!!!")
+		#if c in selection:
+		print("Thank You For Joining Crownstar!")
+		break
+	else:
+		print("TRY SOMETHING ELSE!!!!!!")
 
 selection_list()
-
-			
