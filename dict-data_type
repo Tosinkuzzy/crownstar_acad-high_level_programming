@@ -1,0 +1,14 @@
+''' WAP to represent a group of values as key-value pairs then we should go for dict data type. E.g d = {101:'mangong',102:'ravi',103:'shiva'}. Duplicate keys are not allowed but values can be duplicated. If we are trying to insert an entry with duplicate key then old value will be replaced with new value.
+dict is mutable and the order won't be preserved. '''
+# Write Python 3 code in this online editor and run it.
+d = {101:'mangong', 102:'ravi', 103:'shiva'}
+d[101] = 'sunny'
+d
+{101:'sunny', 102:'ravi', 103:'shiva'}
+print(d[101])
+# We can create empty dictionary as follows
+d = {}
+# We can add key-value pairs as follows
+d['a'] = 'apple'
+d['b'] = 'banana'
+print(d)
