@@ -1,5 +1,7 @@
-# WAF that uses bool() to convert other type values to bool type.
-# NOTE: What converts one type value to another type is (using type casting or type coersion.) The following are inbuilt functions for type casting int(), float(), complex(), bool(), str().
+""" WAF that uses bool() to convert other type values to bool type.
+ NOTE: What converts one type value to another type is (using type casting or type coersion.) 
+The following are inbuilt functions for type casting int(), float(), complex(), bool(), str().
+"""
 bool(0)
 bool(1) 
 bool(10)
