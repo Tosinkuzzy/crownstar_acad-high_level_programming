@@ -1,5 +1,6 @@
-# WAF that can use bin() to convert from any base to binary
-# When we run this code, the output will not be printed to the console.
+"""  WAF that can use bin() to convert from any base to binary, 
+When we run this code, the output will not be printed to the console.
+"""
 a = bin(15)
 '0b1111'
 b = bin(0o11)
