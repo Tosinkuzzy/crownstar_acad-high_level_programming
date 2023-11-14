@@ -4,10 +4,11 @@ print(a)
 
 # And to note this point
 b = True
-type(b) => bool
+type(b) #=> bool
 
 # See code below. Its output will be True
 x = 10
 y = 20
-z = x<y
+z = x < y
+#z = x > y = False
 print(z)
