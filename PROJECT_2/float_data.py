@@ -1,3 +1,4 @@
+""" Don't debug this code because its for error code."""
 # WAP that uses float values by using decimal form.
 # N.B We can represent int values in decimal, binary, octal and hexa decimal forms. BUT we can represent float values ONLY BY USING DECIMAL FORM.
 # That is why all the codes we will have below will all have errors.
