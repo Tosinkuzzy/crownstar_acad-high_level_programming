@@ -1,8 +1,5 @@
-"""  WAP that uses hex() to convert from any base to hexa decimal
-Here is the doc string i did, it can take so many strings as comment
-and docs
- """
-# you can also implement by using ***********________********* to design comment, to make your code looks like pro.
+""" WAP that uses hex() to convert from any base to hexa decimal. """
+# you can also implement by using ***********________********* to design comment, to make your code looks like prof.
 """ If you look at my previous codes with bin() you will see that I used three other methods to come out with the same code.
  You can refer to the previous code and implement here.
 """
