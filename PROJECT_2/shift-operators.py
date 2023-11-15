@@ -1,9 +1,11 @@
-''' Shift operators:
-<< Left Shift Operators: After shifting the empty cells we have to fill with zero '''
+""" Shift operators:
+<< Left Shift Operators: After shifting the empty cells we have to fill with zero.
+"""
 
 print(10 << 2)
 
-''' >> Right Shift Operators: After shifting the empty cells we have to fill with sign bit.(0 for +ve and 1 for -ve) '''
+""" >> Right Shift Operators: After shifting the empty cells we have to fill with sign bit.(0 for +ve and 1 for -ve).
+"""
 
 print(10 >> 2)
 
