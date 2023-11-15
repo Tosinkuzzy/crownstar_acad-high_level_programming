@@ -3,7 +3,6 @@
 # Form-1: range(10)
 # generate numbers from 0 to 9
 
-# E.g
 r = range(10)
 for i in r : print(i)
 print(r)
@@ -11,7 +10,6 @@ print(r)
 # Form-2: range (10, 20)
 # generate numbers from 10 to 19
 
-# E.g
 r = range(10, 20)
 for i in r : print(i)
 print(r)
@@ -19,25 +17,20 @@ print(r)
 # Form-3: range(10, 20, 2)
 # 2 means in increment value
 
-# E.g
 r = range(10, 20, 2)
 for i in r : print(i)
 print(r)
 
 # We can access elements present in the range Data Type by using index
-# E.g
 r = range(10, 20)
 r[0]
-r[15] # IndexError: range object index out of range
+#r[15] # IndexError: range object index out of range
 
 # We cannot modify the values of range data type
-# E.g
-r[0] = 100
-TypeError: 'range' object does not support item assignment
+#r[0] = 100
+#TypeError: 'range' object does not support item assignment
 
 # We can create a list of values with range data type
 
-# E.g
 I = list(range(10))
-I
-
+print(I)
