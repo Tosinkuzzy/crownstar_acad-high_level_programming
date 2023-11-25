@@ -4,7 +4,6 @@
 pyvenv.cfg
 *.env
 venv
-/crownstar_acad-high_level_programming/
 __pycache__
 lib
 lib64
