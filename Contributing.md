@@ -14,7 +14,12 @@ Activate your environment:
 Get ipykernel and set it to your jupyter to venv:
 
 1. pip install ipykernel
-2. Python -m ipykernel install --user --name=name_of_venv
+
+2. cd repo
+3.
+4. pip install -r requirements.txt
+5. 
+6. Python -m ipykernel install --user --name=name_of_venv
 
 
 
