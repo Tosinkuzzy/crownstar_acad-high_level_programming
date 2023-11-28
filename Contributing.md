@@ -3,8 +3,6 @@ Setting up your dependecies:
 1. Fork the repo
 2. clone to your Terminal/Local
 
-echo "###" > contributing.md
-
 set up your virtual environment:
 
 1. Python -m venv {env}
