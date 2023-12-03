@@ -12,7 +12,7 @@ def luhn_check(card_number):
 def get_card_issuer(card_number):
     first_digit = str(card_number)[0]
     if first_digit == '3':
-        return 'AMERICA EXPRESS/DINERS CLUB'
+        return 'AMERICAN EXPRESS/DINERS CLUB'
     elif first_digit == '4':
         return 'VISA'
     elif first_digit == '5':
