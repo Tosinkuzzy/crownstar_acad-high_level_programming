@@ -7,18 +7,22 @@ which could take a significant amount of time and memory to compute.
 """
 
 import itertools
+import re
+import random
 
-def generate_all_valid_us_phone_numbers():
-    phone_numbers = []
-    for num in itertools.product('1234567890', repeat=10):
-        phone_number = ''.join(num)
+def generate_valid_us_phone_number():
+    while True:
+        phone_number = ''.join(random.choice('1234567890') for _ in range(10))
         if validate_phone_number(phone_number):
-            phone_numbers.append(phone_number)
-    return phone_numbers
+            return phone_number
 
 def validate_phone_number(phone_number):
-    phone_regex = r'^\+?1?\d{9,15}$'
+    phone_regex = r'^\d{10}$'
     return re.match(phone_regex, phone_number) is not None
 
-valid_us_phone_numbers = generate_all_valid_us_phone_numbers()
+def generate_valid_us_phone_numbers(n):
+    return [generate_valid_us_phone_number() for _ in range(n)]
+
+valid_us_phone_numbers = generate_valid_us_phone_numbers(5)
 print("Valid US Phone Numbers:", valid_us_phone_numbers)
+
