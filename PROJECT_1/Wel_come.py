@@ -3,12 +3,11 @@
 # Welcome Message to Users.
 print("Welcome To Crownstar High Level Programming")
 
-#Greeting to all programmers.
+# Greeting to all Users.
 def greet(person):
-        print("HELLO", person)
-        print("HOW ARE YOU DOING ?")
-greet("TOSINKUZZY")
-greet("MANGONG")
+        print("HI", person)
+        print("HAPPY TO SEE YOU AGAIN!")
+greet(input("NAME: "))
 
 # List of projects
 print("#### TODO LIST ####")
