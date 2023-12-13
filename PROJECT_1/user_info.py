@@ -5,24 +5,24 @@
 from faker import Faker
 import random
 
-# Create an instance of the Faker class
-fake = Faker()
+# Create an instance of the data class
+data = Faker()
 
 # Generate a random number of user accounts (e.g., 10)
-number_of_users = random.randint(1, 10)
+data_of_users = random.randint(1, 10)
 
-for _ in range(number_of_users):
-    # Generate a random username
-    username = fake.user_name()
+for _ in range(data_of_users):
+    # Generate a data username
+    username = data.user_name()
 
-    # Generate a random password
-    password = fake.password()
+    # Generate a data password
+    password = data.password()
 
-    # Generate a random email address
-    email = fake.email()
+    # Generate a data email address
+    email = data.email()
 
     # Print the user account information
     print(f"Username: {username}")
     print(f"Password: {password}")
-    print(f"Email: {email}")
+    print(f"Email: {email}@yahoo.com")
     print("--------")
