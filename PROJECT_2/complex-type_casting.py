@@ -1,4 +1,4 @@
-"""  WAF that uses complex() to convert other types to complex type.
+"""WAF that uses complex() to convert other types to complex type.
 Form-1: complex(x) -> We can use this function to convert x into complex number with real part x and imaginary part 0.
 """
 # NOTE: What converts one type value to another type is (using type casting or type coersion.) The following are inbuilt functions for type casting int(), float(), complex(), bool(), str().
