@@ -1,4 +1,4 @@
-""" WAF that uses bool() to convert other type values to bool type.
+"""WAF that uses bool() to convert other type values to bool type.
  NOTE: What converts one type value to another type is (using type casting or type coersion.) 
 The following are inbuilt functions for type casting int(), float(), complex(), bool(), str().
 """
@@ -26,4 +26,3 @@ print(bool(0+0j))
 print(bool("True"))
 print(bool("False"))
 print(bool(""))
-
