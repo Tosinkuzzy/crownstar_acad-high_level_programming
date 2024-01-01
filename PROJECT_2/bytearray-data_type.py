@@ -1,4 +1,4 @@
-# WAF that uses bytearray which is exactly the same as bytes data type except that its elements can be modified.
+"""WAF that uses bytearray which is exactly the same as bytes data type except that its elements can be modified."""
 # Project 1:
 x = [10, 20, 30, 40]
 b = bytearray(x)
