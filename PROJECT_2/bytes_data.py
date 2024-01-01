@@ -1,4 +1,4 @@
-""" WAF that uses bytes data type to represent a group of byte numbers just like an array.
+"""WAF that uses bytes data type to represent a group of byte numbers just like an array.
 Write Python 3 code in this online editor and run it.
 """
 x = [10, 20, 30, 40]
@@ -17,4 +17,3 @@ x = [10, 20, 30, 40]
 b = bytes(x)
 b[0] = 100
 print(b[1]) # Output is TypeError: 'bytes' object does not support item assignment
-
