@@ -1,7 +1,9 @@
-"""Command Line Arguments: argv is not Array it is a List. It is available sys Module. The Argument which are passing at the time of execution are called Command Line Arguments.
+"""Command Line Arguments: argv is not Array it is a List. It is available sys Module. 
+The Argument which are passing at the time of execution are called Command Line Arguments.
 D:\Python_classes py test.py 10 20 30 (Command Line Arguments)
 
-Within the Python Program this Command Line Arguments are available in argv. Which is present in SYS Module.
+Within the Python Program this Command Line Arguments are available in argv. 
+Which is present in SYS Module.
 
 test.py 10 20 30
 NOTE: 
