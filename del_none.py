@@ -1,4 +1,5 @@
-""" Difference between del and None:
+""" 
+Difference between del and None:
 In the case del, the variable will be removed and we cannot access that variable(unbind operation)
 
 s = "durga"
@@ -6,14 +7,18 @@ del s
 print(s)
 NOTE: This code above will produce an error.
 
-But in the case of None assignment the variable won't be removed but the corresponding object is eligible for Garbage Collection (re bind operation). Hence after assigning with None value, we can access that variable."""
+But in the case of None assignment the variable won't be removed but the corresponding object is eligible for Garbage Collection (re bind operation). 
+Hence after assigning with None value, we can access that variable.
+"""
 
-s = "durga"
+s = "crownstar"
 s = None
 print(s)
 
-"""Pattern-1: To print given number of *s in a row
-test.py"""
+"""
+Pattern-1: To print given number of *s in a row
+test.py
+"""
 
 n = int(input('Enter n value:'))
 for i in range(n):
