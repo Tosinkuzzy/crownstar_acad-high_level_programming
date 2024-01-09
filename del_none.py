@@ -24,22 +24,28 @@ n = int(input('Enter n value:'))
 for i in range(n):
     print('*',end='')
     
-"""Pattern-2: To print square pattern with * symbols
-test.py"""
+"""
+Pattern-2: To print square pattern with * symbols
+test.py
+"""
 
 n = int(input('Enter No Of Rows:'))
 for i in range(n):
     print('* '*n)
     
-"""Pattern-3: To print square pattern with provided fixed digit in every row
-test.py"""
+"""
+Pattern-3: To print square pattern with provided fixed digit in every row
+test.py
+"""
 
 n = int(input('Enter No Of Rows:'))
 for i in range(n):
     print((str(i+1)+'')*n)
     
-"""Pattern-4: To print square pattern with alphabet symbols
-test.py"""
+"""
+Pattern-4: To print square pattern with alphabet symbols
+test.py
+"""
 
 n = int(input('Enter No Of Rows:'))
 for i in range(n):
