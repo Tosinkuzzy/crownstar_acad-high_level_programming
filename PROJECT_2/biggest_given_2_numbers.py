@@ -1,4 +1,6 @@
-# WAP to find Biggest of given 2 Numbers from the Command Prompt
+"""
+find Biggest of given 2 Numbers from the Command Prompt
+"""
 
 n1 = int(input("Enter First Number:"))
 n2 = input(input("Enter Second Number:"))
