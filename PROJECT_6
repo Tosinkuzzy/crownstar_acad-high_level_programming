@@ -7,4 +7,4 @@ class DOE
 create some movement
 functions
 attribute and method
-OUTPUT =
+OUTPUT = stdio
