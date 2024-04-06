@@ -1,4 +1,4 @@
-#!/usr/bin/env Python3
+#!/usr/bin/env python3
 
 """ Accessing Characters by using slice Operator:
 - Syntax: s[bEginindex:endindex:step]
