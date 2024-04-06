@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """ Accessing Characters By using Index:
 - Python supports both +ve and -ve index.
 - +ve index means Left to Right (Forward Direction)
