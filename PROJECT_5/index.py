@@ -1,6 +1,10 @@
-"""WAP to accept some string from the keyboard and display its characters by index wise (both positive and negative index)
+#!/usr/bin/env python3
 
-test.py:"""
+"""
+WAP to accept some string from the keyboard and display its characters by index wise (both positive and negative index)
+
+test.py:
+"""
 
 s = input("Enter Some String:")
 i = 0
