@@ -1,6 +1,10 @@
-"""len() in-built function:
-we can use len() function to find the number of characters present in the string.
-E.g: """
+#!/usr/bn/env python3
 
-s = 'durga'
+"""
+len() in-built function:
+we can use len() function to find the number of characters present in the string.
+E.g:
+"""
+
+s = 'crownstar'
 print(len(s))
