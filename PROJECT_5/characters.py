@@ -1,3 +1,5 @@
+#!/usr/bin/env Python3
+
 """ Accessing Characters by using slice Operator:
 - Syntax: s[bEginindex:endindex:step]
 - Begin Index: From where we have to consider slice (substring)
