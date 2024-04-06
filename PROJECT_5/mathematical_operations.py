@@ -7,8 +7,8 @@ we can apply the following mathematical operators for strings
 - * operator for repetition 
 """
 
-print("durga" + "soft")
-print("durga" *2)
+print("Crown" + "star")
+print("crown" *2)
 
 """ 
 NOTE:
