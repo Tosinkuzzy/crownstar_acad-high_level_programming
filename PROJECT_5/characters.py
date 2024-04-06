@@ -12,22 +12,14 @@ NOTE:
 - The default value for step is 1."""
 
 s = "Learning Python is very very easy!!!"
-s[1:7:1]
-'earnin'
-s[1:7]
-'earnin'
-s[1:7:2]
-'eri'
-s[:7]
-'Learnin'
-s[7:]
-'g Python is very very easy!!!'
-s[::]
-'Learning Python is very very easy!!!'
-s[:]
-'Learning Python is very very easy!!!'
-s[::-1]
-'!!!ysae yrev yrev si nohtyP gninraeL'
+print(s[1:7:1])
+print(s[1:7])
+print(s[1:7:2])
+print(s[:7])
+print(s[7:])
+print(s[::])
+print(s[:])
+print(s[::-1])
 
 """ Behaviour of Slice Operator:
 - s[bEgin:end:step]
