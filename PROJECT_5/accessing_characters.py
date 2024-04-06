@@ -4,13 +4,11 @@
 - -ve index means Right to Left (Backward Direction)
 E.g: s = 'durga'
 
+"""
 s = 'durga'
-s[0]
-'d'
-s[4]
-'a'
-s[-1]
-'a'
-s[10] 
+print(s[0])
+print(s[4])
+print(s[-1])
+print(s[10])
 
-NOTE: If we are trying to access characters of a string without of range index then we will get error saying: IndexError"""
+""" NOTE: If we are trying to access characters of a string without of range index then we will get error saying: IndexError"""
